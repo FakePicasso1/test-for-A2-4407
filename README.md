@@ -101,6 +101,17 @@ net sentiment rate = (likes - dislikes) / views
 
 If there is a tie, the script prints all tied results in a clear format.
 
+## Expected Output
+
+the expected output should be similar to:
+
+Most frequent video, ID: id4667
+Mean number of views: 2355595.97
+Max dislikes video, ID: id2798
+Highest engagement rate video, ID: id2282, dated: 2018-01-04
+Least sentiment rate video, ID: id2219, dated: 2017-12-13
+
+If there are ties, all tied results are printed in the same clear format.
 ## Testing
 
 The scripts were tested using the CITS4407 Docker environment.
